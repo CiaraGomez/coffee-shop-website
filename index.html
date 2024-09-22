@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Your Coffee Shop! Enjoy our delicious coffee and pastries.">
+    <meta name="keywords" content="coffee, pastries, cafe, coffee shop">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'YOUR_TRACKING_ID');
+    </script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Ciara's Coffee Shop</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your Coffee Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li>Coffee - ₱70.00</li>
+            <li>Espresso - ₱50.00</li>
+            <li>Cappuccino - ₱90.00</li>
+            <li>Pastries - ₱25.00</li>
+        </ul>       
+    </section>
+    <section id="location">
+        <h2>Location</h2>
+        <p>Find us at:</p>
+        <p>Poblacion 1, Villanueva, Misamis Oriental</p>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d246.56823803560255!2d124.77127941659789!3d8.587171375439375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1726990829172!5m2!1sen!2sph"
+            width="600" 
+            height="450" style="border:0;" 
+            allowfullscreen="" loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"></iframe> 
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="mailto:cg0232930@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>    
+    </section>
+    <section id="promotions">
+        <h2>Promotions</h2>
+        <p>Join us for Happy Hour every Monday-Friday from 5 PM to 7 PM!</p>
+    </section>    
+    <footer>
+        <p>&copy; 2024 Ciara's Coffee Shop</p>
+        <p>Follow us:</p>
+        <ul>
+            <li><a href="https://facebook.com/yourcoffeeshop">Facebook</a></li>
+            <li><a href="https://instagram.com/yourcoffeeshop">Instagram</a></li>
+            <li><a href="https://twitter.com/yourcoffeeshop">Twitter</a></li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
