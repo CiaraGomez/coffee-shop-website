@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://ciaragomez.github.io/</loc>
-        <lastmod>2024-09-23</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
+        <loc>https://ciaragomez.github.io/coffee-shop-website/</loc>
+        <lastmod>2024-09-22T08:51:54+00:00</lastmod>
     </url>
     <url>
-        <loc>https://ciaragomez.github.io/index.html</loc>
+        <loc>https://ciaragomez.github.io/coffee-shop-website/index.html</loc>
     </url>
     <url>
-        <loc>https://ciaragomez.github.io/index2.html</loc>
+        <loc>https://ciaragomez.github.io/coffee-shop-website/index2.html</loc>
     </url>
 </urlset>
